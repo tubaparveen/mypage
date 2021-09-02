@@ -1,0 +1,27 @@
+.banner{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center center;
+}
+.banner .banner-info{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.banner .banner-info h1{
+    position: relative;
+    font-size: 3rem;
+    color: white;
+}
+.banner .banner-info a{
+    position: relative;
+    background-color:black;
+    color: white;
+    padding: 10px 50px;
+}
